@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light and Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark/Light Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Hey Its Rad</h1>
+            <h2>Welcome to my website</h2>
+        </div>
+    </section>
+
+    <!-- about Section -->
+    <section id="about">
+        <h1>Illustrations</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Inspiring Web Design</h2>
+                <img src="img/Designer_mindset_light.svg" alt="Innovation" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Innovative Approach</h2>
+                <img src="img/Operating_system_light.svg" alt="Inspiring" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Creative Solutions</h2>
+                <img src="img/Photo_re_light.svg" alt="Creative" id="image3">
+            </div>
+        </div>
+    </section>
+
+    <!-- projects Section -->
+    <section id="projects">
+        <h1>Buttons</h1>
+        <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">outline</button>
+            <button class="secondary outline">Secondary outline</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, placeat quasi magnam deserunt vel aliquid in nostrum ab architecto repellat eaque dignissimos assumenda officiis eveniet inventore quia. Voluptatibus nam, neque numquam deleniti ut totam enim, est nihil minima quas doloremque.</p>
+        </div>
+    </section>
+
+    <!-- contact Section -->
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
