@@ -7,3 +7,6 @@ Backend : https://github.com/saskaradit/smartbrain-api
 # Mini-Project
 
 This Repository is filled with my projects
+
+# Certificates 
+https://drive.google.com/drive/folders/1qtORCOX6RxWdBikmMQF1xtBAYC5lEY7s?usp=sharing
